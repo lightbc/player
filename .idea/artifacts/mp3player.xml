@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="mp3player">
+    <output-path>$PROJECT_DIR$/out/artifacts/mp3player</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="player.Mp3Player" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="image" />
+        <option name="title" value="" />
+        <option name="vendor" value="lightbc" />
+        <option name="version" value="1.1.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="mp3player.jar">
+        <element id="module-output" name="mp3player" />
+      </element>
+      <element id="file-copy" path="$MAVEN_REPOSITORY$/org/jaudiotagger/2.0.3/jaudiotagger-2.0.3.jar" />
+      <element id="directory" name="icons">
+        <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources/icons" />
+      </element>
+    </root>
+  </artifact>
+</component>

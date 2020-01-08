@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mp3player" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ab6df14-3285-4cfb-811f-26c373785b58" name="Default Changelist" comment="首次提交">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mp3player.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mp3player.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/app/jaudiotagger-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/app/mp3player.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/app/mp3player.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/mp3player.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/mp3player.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/msvcp120.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/msvcr100.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/msvcr120.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/packager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/COPYRIGHT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/THIRDPARTYLICENSEREADME-JAVAFX.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/THIRDPARTYLICENSEREADME.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/Welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/JAWTAccessBridge-64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/JavaAccessBridge-64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/WindowsAccessBridge-64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/attach.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/awt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/bci.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/dcpr.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/decora_sse.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/deploy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/dt_shmem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/dt_socket.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/fontmanager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/fxplugins.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/glass.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/glib-lite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/gstreamer-lite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/hprof.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/instrument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/j2pcsc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/j2pkcs11.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jaas_nt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/java.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/java_crw_demo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/javafx_font.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/javafx_font_t2k.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/javafx_iio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jawt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jdwp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jfr.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jfxmedia.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jfxwebkit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jli.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jpeg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jsdt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jsound.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jsoundds.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/kcms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/lcms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/management.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/mlib_image.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/msvcp120.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/msvcr100.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/msvcr120.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/nio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/npt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/plugin2/msvcr100.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/plugin2/npjp2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/prism_common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/prism_d3d.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/prism_sw.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/resource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/sawindbg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/server/Xusage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/server/classes.jsa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/server/jvm.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/splashscreen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/sunec.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/sunmscapi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/t2k.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/unpack.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/verify.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/w2k_lsa_auth.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/zip.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/accessibility.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/amd64/jvm.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/calendars.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/charsets.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/classlist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/cmm/CIEXYZ.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/cmm/GRAY.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/cmm/LINEAR_RGB.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/cmm/PYCC.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/cmm/sRGB.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/content-types.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/currency.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/access-bridge-64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/cldrdata.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/dnsns.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/jaccess.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/jfxrt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/localedata.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/meta-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/nashorn.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/sunec.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/sunjce_provider.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/sunmscapi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/sunpkcs11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/zipfs.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/flavormap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fontconfig.bfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fontconfig.properties.src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaBrightDemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaBrightDemiItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaBrightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaBrightRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaSansDemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaSansRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaTypewriterBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaTypewriterRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/hijrah-config-umalqura.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/cursors.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/invalid32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/win32_CopyDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/win32_CopyNoDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/win32_LinkDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/win32_LinkNoDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/win32_MoveDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/win32_MoveNoDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/javaws.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jce.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jfr.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jfr/default.jfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jfr/profile.jfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jfxswt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jsse.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jvm.hprof.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/management-agent.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/management/jmxremote.access" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/management/jmxremote.password.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/management/management.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/management/snmp.acl.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/meta-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/net.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/psfont.properties.ja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/psfontj2d.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/resources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/rt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/US_export_policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/blacklist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/blacklisted.certs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/cacerts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/java.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/java.security" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/javaws.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/local_policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/trusted.libraries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/sound.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/tzdb.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/tzmappings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/dgclose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/mute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/norepeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/repeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/icons/volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/jaudiotagger-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/mp3player.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/mp3player.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/mp3player.jnlp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/mp3player/prop.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/player/Mp3Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/dgclose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/mute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/norepeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/repeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/mp3player.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/dgclose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/mute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/norepeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/repeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/icons/volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$11$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$17.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/prop.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/mp3player.kotlin_module" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mp3player" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/player/Mp3Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="888" column="37" selection-start-line="888" selection-start-column="37" selection-end-line="888" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2990#2991#0" expanded="true" />
+                <element signature="e#3017#3018#0" expanded="true" />
+                <element signature="e#5105#5723#0" expanded="true" />
+                <element signature="e#5722#5723#0" expanded="true" />
+                <element signature="e#7313#7770#0" expanded="true" />
+                <element signature="e#7769#7770#0" expanded="true" />
+                <element signature="e#8098#8268#0" expanded="true" />
+                <element signature="e#8267#8268#0" expanded="true" />
+                <element signature="e#8590#8741#0" expanded="true" />
+                <element signature="e#8740#8741#0" expanded="true" />
+                <element signature="e#9975#11059#0" expanded="true" />
+                <element signature="e#11058#11059#0" expanded="true" />
+                <element signature="e#12061#12447#0" expanded="true" />
+                <element signature="e#12446#12447#0" expanded="true" />
+                <element signature="e#15330#15711#0" expanded="true" />
+                <element signature="e#15710#15711#0" expanded="true" />
+                <element signature="e#16053#17690#0" expanded="true" />
+                <element signature="e#16500#16501#0" expanded="true" />
+                <element signature="e#16571#16572#0" expanded="true" />
+                <element signature="e#16623#16624#0" expanded="true" />
+                <element signature="e#16726#16727#0" expanded="true" />
+                <element signature="e#17689#17690#0" expanded="true" />
+                <element signature="e#20923#21758#0" expanded="true" />
+                <element signature="e#21757#21758#0" expanded="true" />
+                <element signature="e#21889#22192#0" expanded="true" />
+                <element signature="e#22191#22192#0" expanded="true" />
+                <element signature="e#23426#23606#0" expanded="true" />
+                <element signature="e#23605#23606#0" expanded="true" />
+                <element signature="e#25210#25665#0" expanded="true" />
+                <element signature="e#25664#25665#0" expanded="true" />
+                <element signature="e#26331#26332#0" expanded="true" />
+                <element signature="e#26375#26376#0" expanded="true" />
+                <element signature="e#26590#27577#0" expanded="true" />
+                <element signature="e#27576#27577#0" expanded="true" />
+                <element signature="e#30357#30358#0" expanded="true" />
+                <element signature="e#30388#30389#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>framePnael</find>
+      <find>addFiles</find>
+      <find>labelSpace</find>
+      <find>settingsList</find>
+      <find>\</find>
+      <find>\\</find>
+      <find>@Override</find>
+      <find>private</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>framePanel</replace>
+      <replace>addFile</replace>
+      <replace>space</replace>
+      <replace>skins</replace>
+      <replace>-1</replace>
+      <replace>0</replace>
+      <replace>/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/d.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Mp3Player.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Mp3Player.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/player" />
+        <option value="$PROJECT_DIR$/src/main/resources/qw.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Prop.fxml" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/prop.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/player/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/player/Mp3Player.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mp3player" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mp3player" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mp3player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp3player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp3player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp3player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp3player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp3player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp3player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp3player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp3player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp3player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\IDEA\projects\mp3player\src\main\resources\icons" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\IDEA\projects\mp3player\src\main\resources\icons" />
+      <recent name="D:\Java\IDEA\projects\mp3player\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Mp3Player">
+    <configuration name="Mp3Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="player.Mp3Player" />
+      <module name="mp3player" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="mp3player" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Mp3Player" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Mp3Player" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ll\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ab6df14-3285-4cfb-811f-26c373785b58" name="Default Changelist" comment="" />
+      <created>1578145103529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578145103529</updated>
+      <workItem from="1578145106638" duration="26424000" />
+      <workItem from="1578207627702" duration="9237000" />
+      <workItem from="1578224482181" duration="11794000" />
+      <workItem from="1578286804978" duration="17602000" />
+      <workItem from="1578309389774" duration="13505000" />
+      <workItem from="1578360315792" duration="24326000" />
+      <workItem from="1578394323970" duration="1892000" />
+      <workItem from="1578396720406" duration="11186000" />
+      <workItem from="1578460549798" duration="4855000" />
+      <workItem from="1578483707231" duration="873000" />
+      <workItem from="1578484683108" duration="6535000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="128229000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5021216" side_tool="true" weight="0.25938338" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49787837" visible="true" weight="0.27680966" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49932975" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5021216" side_tool="true" weight="0.25938338" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49787837" visible="true" weight="0.2660858" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="首次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次提交" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/javafx-src.zip!/javafx/beans/value/ObservableValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="132" column="6" selection-start-line="132" selection-start-column="6" selection-end-line="132" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/javafx-src.zip!/javafx/beans/property/ObjectPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/javafx-src.zip!/javafx/scene/media/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="1449" column="24" selection-start-line="1449" selection-start-column="24" selection-end-line="1449" selection-end-column="24" />
+          <folding>
+            <element signature="e#55150#55151#0" expanded="true" />
+            <element signature="e#55219#55220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/plaf/metal/MetalSliderUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="89" column="22" lean-forward="true" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+          <folding>
+            <element signature="e#2278#2279#0" expanded="true" />
+            <element signature="e#2307#2308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/JSlider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="311" column="16" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="16" />
+          <folding>
+            <element signature="e#9386#9387#0" expanded="true" />
+            <element signature="e#9417#9418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="415" column="25" selection-start-line="415" selection-start-column="25" selection-end-line="415" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/plaf/basic/BasicSliderUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="412" column="11" selection-start-line="412" selection-start-column="11" selection-end-line="412" selection-end-column="11" />
+          <folding>
+            <element signature="e#11984#11985#0" expanded="true" />
+            <element signature="e#12024#12025#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/AWTEventMulticaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="269" column="27" selection-start-line="269" selection-start-column="27" selection-end-line="269" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/JList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="2351" column="16" selection-start-line="2351" selection-start-column="16" selection-end-line="2351" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/table/TableColumnModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/table/DefaultTableColumnModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="293" column="28" selection-start-line="293" selection-start-column="28" selection-end-line="293" selection-end-column="28" />
+          <folding>
+            <element signature="e#9975#9976#0" expanded="true" />
+            <element signature="e#10033#10034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/table/TableColumn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="432" column="16" selection-start-line="432" selection-start-column="16" selection-end-line="432" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/JLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+          <folding>
+            <element signature="e#5750#5751#0" expanded="true" />
+            <element signature="e#5803#5804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="2039" column="16" selection-start-line="2039" selection-start-column="16" selection-end-line="2039" selection-end-column="16" />
+          <folding>
+            <element signature="e#38925#38926#0" expanded="true" />
+            <element signature="e#38973#38974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/JTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="181" column="11" selection-start-line="181" selection-start-column="11" selection-end-line="181" selection-end-column="11" />
+          <folding>
+            <element signature="e#6436#6437#0" expanded="true" />
+            <element signature="e#6471#6472#0" expanded="true" />
+            <element signature="e#7494#7495#0" expanded="true" />
+            <element signature="e#7535#7536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2999" column="16" lean-forward="true" selection-start-line="2999" selection-start-column="16" selection-end-line="2999" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/fixed.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/dgclose.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/list.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/next.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/norepeat.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/mute.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/pause.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/play.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/prev.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/close.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/check.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/volume.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/settings.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/repeat.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/plus.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/min.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/JFileChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="653" column="21" selection-start-line="653" selection-start-column="21" selection-end-line="653" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="607" column="24" selection-start-line="607" selection-start-column="24" selection-end-line="607" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/player" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/qw.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Prop.fxml" />
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-931">
+          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java" />
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/event/WindowStateListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/prop.properties" />
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="554" column="18" selection-start-line="554" selection-start-column="18" selection-end-line="554" selection-end-column="18" />
+          <folding>
+            <element signature="e#23018#23019#0" expanded="true" />
+            <element signature="e#23057#23058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/player/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/player/TT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/player/RR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/player/EE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/player/Mp3Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="888" column="37" selection-start-line="888" selection-start-column="37" selection-end-line="888" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2990#2991#0" expanded="true" />
+            <element signature="e#3017#3018#0" expanded="true" />
+            <element signature="e#5105#5723#0" expanded="true" />
+            <element signature="e#5722#5723#0" expanded="true" />
+            <element signature="e#7313#7770#0" expanded="true" />
+            <element signature="e#7769#7770#0" expanded="true" />
+            <element signature="e#8098#8268#0" expanded="true" />
+            <element signature="e#8267#8268#0" expanded="true" />
+            <element signature="e#8590#8741#0" expanded="true" />
+            <element signature="e#8740#8741#0" expanded="true" />
+            <element signature="e#9975#11059#0" expanded="true" />
+            <element signature="e#11058#11059#0" expanded="true" />
+            <element signature="e#12061#12447#0" expanded="true" />
+            <element signature="e#12446#12447#0" expanded="true" />
+            <element signature="e#15330#15711#0" expanded="true" />
+            <element signature="e#15710#15711#0" expanded="true" />
+            <element signature="e#16053#17690#0" expanded="true" />
+            <element signature="e#16500#16501#0" expanded="true" />
+            <element signature="e#16571#16572#0" expanded="true" />
+            <element signature="e#16623#16624#0" expanded="true" />
+            <element signature="e#16726#16727#0" expanded="true" />
+            <element signature="e#17689#17690#0" expanded="true" />
+            <element signature="e#20923#21758#0" expanded="true" />
+            <element signature="e#21757#21758#0" expanded="true" />
+            <element signature="e#21889#22192#0" expanded="true" />
+            <element signature="e#22191#22192#0" expanded="true" />
+            <element signature="e#23426#23606#0" expanded="true" />
+            <element signature="e#23605#23606#0" expanded="true" />
+            <element signature="e#25210#25665#0" expanded="true" />
+            <element signature="e#25664#25665#0" expanded="true" />
+            <element signature="e#26331#26332#0" expanded="true" />
+            <element signature="e#26375#26376#0" expanded="true" />
+            <element signature="e#26590#27577#0" expanded="true" />
+            <element signature="e#27576#27577#0" expanded="true" />
+            <element signature="e#30357#30358#0" expanded="true" />
+            <element signature="e#30388#30389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>mp3player</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mp3player</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="mp3player.jnlp">
+  <information>
+    <title>mp3player</title>
+    <vendor>lightbc</vendor>
+    <description>mp3player</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="jaudiotagger-2.0.3.jar" size="811441" download="eager" />
+    <jar href="mp3player.jar" size="52406" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="player.Mp3Player"  name="mp3player" />
+  <update check="background"/>
+</jnlp>
