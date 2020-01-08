@@ -6,203 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ab6df14-3285-4cfb-811f-26c373785b58" name="Default Changelist" comment="">
+    <list default="true" id="6ab6df14-3285-4cfb-811f-26c373785b58" name="Default Changelist" comment="首次提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/app/jaudiotagger-2.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/app/mp3player.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/app/mp3player.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/mp3player.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/mp3player.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/msvcp120.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/msvcr100.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/msvcr120.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/packager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/COPYRIGHT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/THIRDPARTYLICENSEREADME-JAVAFX.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/THIRDPARTYLICENSEREADME.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/Welcome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/JAWTAccessBridge-64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/JavaAccessBridge-64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/WindowsAccessBridge-64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/attach.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/awt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/bci.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/dcpr.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/decora_sse.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/deploy.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/dt_shmem.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/dt_socket.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/fontmanager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/fxplugins.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/glass.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/glib-lite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/gstreamer-lite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/hprof.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/instrument.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/j2pcsc.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/j2pkcs11.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jaas_nt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/java.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/java_crw_demo.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/javafx_font.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/javafx_font_t2k.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/javafx_iio.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jawt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jdwp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jfr.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jfxmedia.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jfxwebkit.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jli.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jpeg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jsdt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jsound.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/jsoundds.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/kcms.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/lcms.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/management.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/mlib_image.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/msvcp120.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/msvcr100.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/msvcr120.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/net.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/nio.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/npt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/plugin2/msvcr100.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/plugin2/npjp2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/prism_common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/prism_d3d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/prism_sw.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/resource.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/sawindbg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/server/Xusage.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/server/classes.jsa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/server/jvm.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/splashscreen.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/sunec.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/sunmscapi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/t2k.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/unpack.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/verify.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/w2k_lsa_auth.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/bin/zip.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/accessibility.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/amd64/jvm.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/calendars.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/charsets.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/classlist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/cmm/CIEXYZ.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/cmm/GRAY.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/cmm/LINEAR_RGB.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/cmm/PYCC.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/cmm/sRGB.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/content-types.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/currency.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/access-bridge-64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/cldrdata.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/dnsns.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/jaccess.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/jfxrt.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/localedata.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/meta-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/nashorn.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/sunec.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/sunjce_provider.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/sunmscapi.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/sunpkcs11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/ext/zipfs.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/flavormap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fontconfig.bfc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fontconfig.properties.src" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaBrightDemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaBrightDemiItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaBrightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaBrightRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaSansDemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaSansRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaTypewriterBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/fonts/LucidaTypewriterRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/hijrah-config-umalqura.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/cursors.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/invalid32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/win32_CopyDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/win32_CopyNoDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/win32_LinkDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/win32_LinkNoDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/win32_MoveDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/images/cursors/win32_MoveNoDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/javafx.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/javaws.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jce.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jfr.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jfr/default.jfc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jfr/profile.jfc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jfxswt.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jsse.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/jvm.hprof.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/management-agent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/management/jmxremote.access" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/management/jmxremote.password.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/management/management.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/management/snmp.acl.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/meta-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/net.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/plugin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/psfont.properties.ja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/psfontj2d.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/resources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/rt.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/US_export_policy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/blacklist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/blacklisted.certs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/cacerts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/java.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/java.security" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/javaws.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/local_policy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/security/trusted.libraries" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/sound.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/tzdb.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/bundles/mp3player/runtime/lib/tzmappings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/mp3player.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mp3player/mp3player.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/mp3player.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mp3player/mp3player.jnlp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mp3player.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/dgclose.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/mute.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/norepeat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/pause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/repeat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/settings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/volume.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$11$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/prop.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/mp3player.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -271,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="480">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -309,6 +114,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="lightbc" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -452,7 +262,7 @@
       <workItem from="1578396720406" duration="11186000" />
       <workItem from="1578460549798" duration="4855000" />
       <workItem from="1578483707231" duration="873000" />
-      <workItem from="1578484683108" duration="7035000" />
+      <workItem from="1578484683108" duration="8895000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1578491386963</created>
@@ -461,11 +271,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578491386963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="首次提交">
+      <created>1578492020722</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578492020722</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128729000" />
+    <option name="totallyTimeSpent" value="130589000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,14 +294,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5021216" side_tool="true" weight="0.25938338" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49787837" visible="true" weight="0.27680966" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49787837" visible="true" weight="0.27680966" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3286119" />
@@ -493,7 +310,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49932975" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49932975" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932975" weight="0.3286119" />
@@ -547,19 +364,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="首次提交" />
     <option name="LAST_COMMIT_MESSAGE" value="首次提交" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Work Home/JDK/jdk8/javafx-src.zip!/javafx/beans/property/ObjectPropertyBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Work Home/JDK/jdk8/javafx-src.zip!/javafx/scene/media/MediaPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -821,6 +632,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/mp3player/mp3player.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1060" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/prop.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/player/Mp3Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="801">
@@ -867,15 +690,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/mp3player/mp3player.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1060" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="480">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
