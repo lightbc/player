@@ -210,12 +210,14 @@ public class Mp3Player extends JFrame {
 
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (!bool) {
-                    settingsList.setVisible(true);
-                    bool = true;
-                } else {
-                    settingsList.setVisible(false);
-                    bool = false;
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    if (!bool) {
+                        settingsList.setVisible(true);
+                        bool = true;
+                    } else {
+                        settingsList.setVisible(false);
+                        bool = false;
+                    }
                 }
             }
         });
@@ -233,10 +235,12 @@ public class Mp3Player extends JFrame {
         settingsList.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (settingsList.getSelectedValue().equals("Skins")) {
-                    settingsListChooser(settingsList.getSelectedValue().toString());
-                } else if (settingsList.getSelectedValue().equals("Author")) {
-                    settingsListChooser(settingsList.getSelectedValue().toString());
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    if (settingsList.getSelectedValue().equals("Skins")) {
+                        settingsListChooser(settingsList.getSelectedValue().toString());
+                    } else if (settingsList.getSelectedValue().equals("Author")) {
+                        settingsListChooser(settingsList.getSelectedValue().toString());
+                    }
                 }
             }
         });
@@ -252,7 +256,9 @@ public class Mp3Player extends JFrame {
         minimumWindow.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                setExtendedState(Frame.ICONIFIED);
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    setExtendedState(Frame.ICONIFIED);
+                }
             }
         });
 
@@ -267,7 +273,9 @@ public class Mp3Player extends JFrame {
         closeWindow.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                System.exit(0);
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    System.exit(0);
+                }
             }
         });
 
@@ -303,24 +311,26 @@ public class Mp3Player extends JFrame {
         play.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (mp != null) {
-                    mp.setVolume(volValue);
-                    if (mp.getStatus() == MediaPlayer.Status.READY) {
-                        setCommonButton(play, "pause.png");
-                        mp.play();
-                        timer();
-                    } else if (mp.getStatus() == MediaPlayer.Status.PLAYING) {
-                        setCommonButton(play, "play.png");
-                        mp.pause();
-                        adjustTimer("PAUSED");
-                    } else if (mp.getStatus() == MediaPlayer.Status.PAUSED) {
-                        setCommonButton(play, "pause.png");
-                        mp.play();
-                        adjustTimer("PLAYING");
-                    } else if (mp.getStatus() == MediaPlayer.Status.STOPPED) {
-                        setCommonButton(play, "pause.png");
-                        mp.play();
-                        timer();
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    if (mp != null) {
+                        mp.setVolume(volValue);
+                        if (mp.getStatus() == MediaPlayer.Status.READY) {
+                            setCommonButton(play, "pause.png");
+                            mp.play();
+                            timer();
+                        } else if (mp.getStatus() == MediaPlayer.Status.PLAYING) {
+                            setCommonButton(play, "play.png");
+                            mp.pause();
+                            adjustTimer("PAUSED");
+                        } else if (mp.getStatus() == MediaPlayer.Status.PAUSED) {
+                            setCommonButton(play, "pause.png");
+                            mp.play();
+                            adjustTimer("PLAYING");
+                        } else if (mp.getStatus() == MediaPlayer.Status.STOPPED) {
+                            setCommonButton(play, "pause.png");
+                            mp.play();
+                            timer();
+                        }
                     }
                 }
             }
@@ -339,12 +349,14 @@ public class Mp3Player extends JFrame {
 
 
             public void mouseClicked(MouseEvent e) {
-                if (!bool) {
-                    volSlider.setVisible(true);
-                    bool = true;
-                } else {
-                    volSlider.setVisible(false);
-                    bool = false;
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    if (!bool) {
+                        volSlider.setVisible(true);
+                        bool = true;
+                    } else {
+                        volSlider.setVisible(false);
+                        bool = false;
+                    }
                 }
             }
         });
@@ -439,12 +451,14 @@ public class Mp3Player extends JFrame {
         playType.addMouseListener(new MouseAdapter() {
 
             public void mouseClicked(MouseEvent e) {
-                if (!isRepeat) {
-                    setCommonButton(playType, "repeat.png");
-                    isRepeat = true;
-                } else {
-                    setCommonButton(playType, "norepeat.png");
-                    isRepeat = false;
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    if (!isRepeat) {
+                        setCommonButton(playType, "repeat.png");
+                        isRepeat = true;
+                    } else {
+                        setCommonButton(playType, "norepeat.png");
+                        isRepeat = false;
+                    }
                 }
             }
         });
@@ -460,41 +474,43 @@ public class Mp3Player extends JFrame {
         addFile.addMouseListener(new MouseAdapter() {
 
             public void mouseClicked(MouseEvent e) {
-                if (rltPath.equals("")) {
-                    fileChooser = new JFileChooser("c:/");
-                    fileChooser.changeToParentDirectory();
-                } else {
-                    fileChooser = new JFileChooser(rltPath);
-                }
-                fileChooser.setFileView(new FileView() {
-
-                    public String getName(File f) {
-                        return super.getName(f);
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    if (rltPath.equals("")) {
+                        fileChooser = new JFileChooser("c:/");
+                        fileChooser.changeToParentDirectory();
+                    } else {
+                        fileChooser = new JFileChooser(rltPath);
                     }
+                    fileChooser.setFileView(new FileView() {
+
+                        public String getName(File f) {
+                            return super.getName(f);
+                        }
 
 
-                    public Icon getIcon(File f) {
-                        return fileChooser.getFileSystemView().getSystemIcon(f);
+                        public Icon getIcon(File f) {
+                            return fileChooser.getFileSystemView().getSystemIcon(f);
+                        }
+                    });
+                    fileChooser.setDialogTitle("文件");
+                    // 关闭多选
+                    fileChooser.setMultiSelectionEnabled(false);
+                    // 单个文件选择
+                    fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
+                    // 关闭选择"所有文件"
+                    fileChooser.removeChoosableFileFilter(fileChooser.getAcceptAllFileFilter());
+                    // 设置可选文件类型
+                    fileChooser.setFileFilter(new FileNameExtensionFilter("*.mp3", "mp3"));
+                    int result = fileChooser.showOpenDialog(null);
+
+                    if (fileChooser.getSelectedFile() != null && result == JFileChooser.APPROVE_OPTION) {
+                        File file = fileChooser.getSelectedFile();
+                        // 记录上次访问文件的上级目录
+                        rltPath = file.getParent();
+                        writePropFile(rltPath);
+                        initPlayer();
+                        player(file);
                     }
-                });
-                fileChooser.setDialogTitle("文件");
-                // 关闭多选
-                fileChooser.setMultiSelectionEnabled(false);
-                // 单个文件选择
-                fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
-                // 关闭选择"所有文件"
-                fileChooser.removeChoosableFileFilter(fileChooser.getAcceptAllFileFilter());
-                // 设置可选文件类型
-                fileChooser.setFileFilter(new FileNameExtensionFilter("*.mp3", "mp3"));
-                int result = fileChooser.showOpenDialog(null);
-
-                if (fileChooser.getSelectedFile() != null && result == JFileChooser.APPROVE_OPTION) {
-                    File file = fileChooser.getSelectedFile();
-                    // 记录上次访问文件的上级目录
-                    rltPath = file.getParent();
-                    writePropFile(rltPath);
-                    initPlayer();
-                    player(file);
                 }
             }
         });
