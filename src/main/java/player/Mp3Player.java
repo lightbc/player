@@ -767,11 +767,13 @@ public class Mp3Player extends JFrame {
         colorChooserLab.addMouseListener(new MouseAdapter() {
 
             public void mouseClicked(MouseEvent e) {
-                framePanel.setBackground(new Color(r, g, b));
-                chooserColor = new Color(r, g, b);
-                fileName.setBackground(chooserColor);
-                layeredPane.setBackground(chooserColor);
-                defaultChoose.setBounds(colorLabWidth * (pos + 1) - checkWidth, colorLabTop + colorLabHeight - checkHeight, 40, 40);
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    framePanel.setBackground(new Color(r, g, b));
+                    chooserColor = new Color(r, g, b);
+                    fileName.setBackground(chooserColor);
+                    layeredPane.setBackground(chooserColor);
+                    defaultChoose.setBounds(colorLabWidth * (pos + 1) - checkWidth, colorLabTop + colorLabHeight - checkHeight, 40, 40);
+                }
             }
         });
     }
@@ -804,23 +806,25 @@ public class Mp3Player extends JFrame {
         table.addMouseListener(new MouseAdapter() {
 
             public void mouseClicked(MouseEvent e) {
-                int row = table.getSelectedRow();
-                int col = table.getSelectedColumn();
-                String value = "";
-                if (row != -1 && col != -1) {
-                    value = (String) table.getValueAt(row, col);
-                }
-                try {
-                    // http | https协议操作
-                    if ((value.indexOf("http://") != -1 || value.indexOf("https://") != -1) && value != null) {
-                        int result = JOptionPane.showConfirmDialog(null, "您确认要访问该主页吗？", "提示", JOptionPane.YES_NO_CANCEL_OPTION);
-                        if (result == 0) {
-                            // 打开符合条件的链接
-                            Runtime.getRuntime().exec("cmd.exe /c start " + value);
-                        }
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    int row = table.getSelectedRow();
+                    int col = table.getSelectedColumn();
+                    String value = "";
+                    if (row != -1 && col != -1) {
+                        value = (String) table.getValueAt(row, col);
                     }
-                } catch (IOException ex) {
-                    ex.printStackTrace();
+                    try {
+                        // http | https协议操作
+                        if ((value.indexOf("http://") != -1 || value.indexOf("https://") != -1) && value != null) {
+                            int result = JOptionPane.showConfirmDialog(null, "您确认要访问该主页吗？", "提示", JOptionPane.YES_NO_CANCEL_OPTION);
+                            if (result == 0) {
+                                // 打开符合条件的链接
+                                Runtime.getRuntime().exec("cmd.exe /c start " + value);
+                            }
+                        }
+                    } catch (IOException ex) {
+                        ex.printStackTrace();
+                    }
                 }
             }
         });
