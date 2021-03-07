@@ -6,8 +6,31 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ab6df14-3285-4cfb-811f-26c373785b58" name="Default Changelist" comment="首次提交">
+    <list default="true" id="6ab6df14-3285-4cfb-811f-26c373785b58" name="Default Changelist" comment="将播放器单个文件进行拆分，拆分为多个自定义工具类。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/mp3player.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mp3player/mp3player.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/mp3player.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mp3player/mp3player.jnlp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mp3player/prop.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$11$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Mp3Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/player/Mp3Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/prop.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/prop.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,59 +48,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/player/Mp3Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="817" column="19" selection-start-line="817" selection-start-column="19" selection-end-line="817" selection-end-column="19" />
+            <state relative-caret-position="270">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2990#2991#0" expanded="true" />
-                <element signature="e#3017#3018#0" expanded="true" />
-                <element signature="e#5105#5723#0" expanded="true" />
-                <element signature="e#5722#5723#0" expanded="true" />
-                <element signature="e#7313#7770#0" expanded="true" />
-                <element signature="e#7769#7770#0" expanded="true" />
-                <element signature="e#8098#8268#0" expanded="true" />
-                <element signature="e#8267#8268#0" expanded="true" />
-                <element signature="e#8590#8741#0" expanded="true" />
-                <element signature="e#8740#8741#0" expanded="true" />
-                <element signature="e#9975#11059#0" expanded="true" />
-                <element signature="e#11058#11059#0" expanded="true" />
-                <element signature="e#12061#12447#0" expanded="true" />
-                <element signature="e#12446#12447#0" expanded="true" />
-                <element signature="e#15330#15711#0" expanded="true" />
-                <element signature="e#15710#15711#0" expanded="true" />
-                <element signature="e#16053#17690#0" expanded="true" />
-                <element signature="e#16500#16501#0" expanded="true" />
-                <element signature="e#16571#16572#0" expanded="true" />
-                <element signature="e#16623#16624#0" expanded="true" />
-                <element signature="e#16726#16727#0" expanded="true" />
-                <element signature="e#17689#17690#0" expanded="true" />
-                <element signature="e#20923#21758#0" expanded="true" />
-                <element signature="e#21757#21758#0" expanded="true" />
-                <element signature="e#21889#22192#0" expanded="true" />
-                <element signature="e#22191#22192#0" expanded="true" />
-                <element signature="e#23426#23606#0" expanded="true" />
-                <element signature="e#23605#23606#0" expanded="true" />
-                <element signature="e#25210#25665#0" expanded="true" />
-                <element signature="e#25664#25665#0" expanded="true" />
-                <element signature="e#26331#26332#0" expanded="true" />
-                <element signature="e#26375#26376#0" expanded="true" />
-                <element signature="e#26590#27577#0" expanded="true" />
-                <element signature="e#27576#27577#0" expanded="true" />
-                <element signature="e#30357#30358#0" expanded="true" />
-                <element signature="e#30388#30389#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomFileIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="360">
+              <caret line="12" column="18" selection-end-line="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="14" column="36" selection-end-line="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomPlayerComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="21" selection-end-line="420" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="2" selection-end-line="186" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="35" selection-end-line="281" />
             </state>
           </provider>
         </entry>
@@ -87,6 +136,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="FxmlFile" />
         <option value="Class" />
       </list>
@@ -94,14 +144,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>framePnael</find>
-      <find>addFiles</find>
-      <find>labelSpace</find>
+      <find>writePropFile</find>
+      <find>setCommonButton</find>
+      <find>fileName</find>
+      <find>fList</find>
+      <find>settings</find>
       <find>settingsList</find>
-      <find>\</find>
-      <find>\\</find>
-      <find>@Override</find>
-      <find>private</find>
+      <find>minimumWindow</find>
+      <find>closeWindow</find>
+      <find>play</find>
+      <find>mp</find>
+      <find>volValue</find>
+      <find>volume</find>
+      <find>volSlider</find>
+      <find>playType</find>
+      <find>isRepeat</find>
+      <find>addFile</find>
+      <find>fileChooser</find>
+      <find>component</find>
+      <find>rltPath</find>
+      <find>CustomSettings.getInstance()</find>
+      <find>settingsListChooser</find>
+      <find>dialog</find>
+      <find>dialo</find>
+      <find>MP3AudioHeader</find>
+      <find>checkFileExists</find>
+      <find>customfilifo</find>
+      <find>new cus</find>
+      <find>properties</find>
+      <find>prop.properties</find>
+      <find>system.ou</find>
     </findStrings>
     <replaceStrings>
       <replace>framePanel</replace>
@@ -111,6 +183,8 @@
       <replace>-1</replace>
       <replace>0</replace>
       <replace>/</replace>
+      <replace>public</replace>
+      <replace>settings</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -134,8 +208,18 @@
         <option value="$PROJECT_DIR$/src/main/resources/Prop.fxml" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/resources/prop.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/player/GetImageDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/player/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/ComponentListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CustomUIListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CustomPlayerComponents.java" />
         <option value="$PROJECT_DIR$/src/main/java/player/Mp3Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CustomFileIO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CustomListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CustomPlayerComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CustomSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CustomSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CustomUI.java" />
       </list>
     </option>
   </component>
@@ -145,6 +229,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="mp3player" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mp3player" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -174,19 +263,36 @@
               <item name="mp3player" type="b2602c69:ProjectViewProjectNode" />
               <item name="mp3player" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mp3player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp3player" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp3player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp3player" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mp3player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp3player" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Player" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -196,12 +302,12 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Java\IDEA\projects\mp3player\src\main\resources\icons" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\IDEA\projects\mp3player\src\main\resources\icons" />
       <recent name="D:\Java\IDEA\projects\mp3player\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\IDEA\projects\mp3player\src\main\resources\icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -217,6 +323,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Mp3Player">
+    <configuration name="GetImageDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="player.GetImageDemo" />
+      <module name="mp3player" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Mp3Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="player.Mp3Player" />
       <module name="mp3player" />
@@ -234,10 +353,12 @@
     <list>
       <item itemvalue="Application.Mp3Player" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.GetImageDemo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Mp3Player" />
+        <item itemvalue="Application.GetImageDemo" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -262,7 +383,38 @@
       <workItem from="1578396720406" duration="11186000" />
       <workItem from="1578460549798" duration="4855000" />
       <workItem from="1578483707231" duration="873000" />
-      <workItem from="1578484683108" duration="8895000" />
+      <workItem from="1578484683108" duration="9490000" />
+      <workItem from="1578548710489" duration="2375000" />
+      <workItem from="1578566095850" duration="2018000" />
+      <workItem from="1578574274467" duration="680000" />
+      <workItem from="1578652324508" duration="229000" />
+      <workItem from="1578654143224" duration="2817000" />
+      <workItem from="1578712838154" duration="1554000" />
+      <workItem from="1578715674272" duration="362000" />
+      <workItem from="1578811005725" duration="1478000" />
+      <workItem from="1582830505552" duration="683000" />
+      <workItem from="1582833579715" duration="187000" />
+      <workItem from="1582985107230" duration="705000" />
+      <workItem from="1583057339760" duration="5496000" />
+      <workItem from="1583118275579" duration="7514000" />
+      <workItem from="1583137914485" duration="76000" />
+      <workItem from="1583152633838" duration="6838000" />
+      <workItem from="1583199002227" duration="601000" />
+      <workItem from="1583202573721" duration="3390000" />
+      <workItem from="1583297997315" duration="140000" />
+      <workItem from="1583309516097" duration="70000" />
+      <workItem from="1583312171766" duration="603000" />
+      <workItem from="1583325863752" duration="1432000" />
+      <workItem from="1583376882722" duration="78000" />
+      <workItem from="1583990987342" duration="34000" />
+      <workItem from="1585717135384" duration="793000" />
+      <workItem from="1592227950200" duration="33000" />
+      <workItem from="1592486967152" duration="1417000" />
+      <workItem from="1592574270852" duration="49000" />
+      <workItem from="1610630099817" duration="604000" />
+      <workItem from="1610970251718" duration="639000" />
+      <workItem from="1611148192711" duration="30000" />
+      <workItem from="1615084688836" duration="25407000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1578491386963</created>
@@ -278,11 +430,39 @@
       <option name="project" value="LOCAL" />
       <updated>1578492020722</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交">
+      <created>1578493833744</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578493833744</updated>
+    </task>
+    <task id="LOCAL-00004" summary="鼠标事件判断">
+      <created>1578714000202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578714000202</updated>
+    </task>
+    <task id="LOCAL-00005" summary="skins author 增添鼠标左键事件判断">
+      <created>1578811454359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578811454359</updated>
+    </task>
+    <task id="LOCAL-00006" summary="将播放器单个文件进行拆分，拆分为多个自定义工具类。">
+      <created>1615109635847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615109635847</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130589000" />
+    <option name="totallyTimeSpent" value="199516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -294,24 +474,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5021216" side_tool="true" weight="0.25938338" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49787837" visible="true" weight="0.27680966" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49787837" weight="0.36997318" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49932975" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49932975" weight="0.35410765" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.45042494" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -320,11 +501,11 @@
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3297587" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.3297587" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -332,38 +513,92 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5021216" side_tool="true" weight="0.25938338" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49787837" visible="true" weight="0.2660858" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49787837" visible="true" weight="0.36997318" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49932975" visible="true" weight="0.35410765" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.45042494" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3297587" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.3297587" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="首次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="首次提交" />
+    <MESSAGE value="提交" />
+    <MESSAGE value="鼠标事件判断" />
+    <MESSAGE value="skins author 增添鼠标左键事件判断" />
+    <MESSAGE value="将播放器单个文件进行拆分，拆分为多个自定义工具类。" />
+    <option name="LAST_COMMIT_MESSAGE" value="将播放器单个文件进行拆分，拆分为多个自定义工具类。" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -371,189 +606,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Work Home/JDK/jdk8/javafx-src.zip!/javafx/scene/media/MediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="1449" column="24" selection-start-line="1449" selection-start-column="24" selection-end-line="1449" selection-end-column="24" />
-          <folding>
-            <element signature="e#55150#55151#0" expanded="true" />
-            <element signature="e#55219#55220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/plaf/metal/MetalSliderUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="89" column="22" lean-forward="true" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
-          <folding>
-            <element signature="e#2278#2279#0" expanded="true" />
-            <element signature="e#2307#2308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/JSlider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="311" column="16" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="16" />
-          <folding>
-            <element signature="e#9386#9387#0" expanded="true" />
-            <element signature="e#9417#9418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/Graphics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="415" column="25" selection-start-line="415" selection-start-column="25" selection-end-line="415" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/plaf/basic/BasicSliderUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="65" column="23" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="412" column="11" selection-start-line="412" selection-start-column="11" selection-end-line="412" selection-end-column="11" />
-          <folding>
-            <element signature="e#11984#11985#0" expanded="true" />
-            <element signature="e#12024#12025#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/AWTEventMulticaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="269" column="27" selection-start-line="269" selection-start-column="27" selection-end-line="269" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/JList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="2351" column="16" selection-start-line="2351" selection-start-column="16" selection-end-line="2351" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/table/TableColumnModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/table/DefaultTableColumnModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="293" column="28" selection-start-line="293" selection-start-column="28" selection-end-line="293" selection-end-column="28" />
-          <folding>
-            <element signature="e#9975#9976#0" expanded="true" />
-            <element signature="e#10033#10034#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/table/TableColumn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="432" column="16" selection-start-line="432" selection-start-column="16" selection-end-line="432" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/JLabel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-          <folding>
-            <element signature="e#5750#5751#0" expanded="true" />
-            <element signature="e#5803#5804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="2039" column="16" selection-start-line="2039" selection-start-column="16" selection-end-line="2039" selection-end-column="16" />
-          <folding>
-            <element signature="e#38925#38926#0" expanded="true" />
-            <element signature="e#38973#38974#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/JTextField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="181" column="11" selection-start-line="181" selection-start-column="11" selection-end-line="181" selection-end-column="11" />
-          <folding>
-            <element signature="e#6436#6437#0" expanded="true" />
-            <element signature="e#6471#6472#0" expanded="true" />
-            <element signature="e#7494#7495#0" expanded="true" />
-            <element signature="e#7535#7536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2999" column="16" lean-forward="true" selection-start-line="2999" selection-start-column="16" selection-end-line="2999" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/fixed.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/dgclose.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/list.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/next.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/norepeat.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/mute.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/pause.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/play.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/prev.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/close.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/check.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/volume.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/settings.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/repeat.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/icons/plus.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -564,13 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="653" column="21" selection-start-line="653" selection-start-column="21" selection-end-line="653" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/Font.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="607" column="24" selection-start-line="607" selection-start-column="24" selection-end-line="607" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -604,37 +649,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/player/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/player/TT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/player/RR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/player/EE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/player/TT.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/player/RR.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/player/EE.java" />
     <entry file="file://$PROJECT_DIR$/out/artifacts/mp3player/mp3player.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1060" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mp3player.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/DefaultListModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="3309" column="16" selection-start-line="3309" selection-start-column="16" selection-end-line="3309" selection-end-column="16" />
+          <folding>
+            <element signature="e#114480#114481#0" expanded="true" />
+            <element signature="e#114527#114528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/player/Test.java" />
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25440">
+          <caret line="881" column="28" selection-start-line="881" selection-start-column="28" selection-end-line="881" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/plaf/metal/MetalSliderUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+          <folding>
+            <element signature="e#2278#2279#0" expanded="true" />
+            <element signature="e#2307#2308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/mp3player/prop.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4920">
+          <caret line="223" column="13" selection-start-line="223" selection-start-column="13" selection-end-line="223" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/java/awt/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="741" column="16" selection-start-line="741" selection-start-column="16" selection-end-line="741" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/javafx-src.zip!/javafx/scene/media/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="393" column="11" selection-start-line="393" selection-start-column="11" selection-end-line="393" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Work Home/JDK/jdk8/src.zip!/javax/swing/JSlider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="500" column="15" selection-start-line="500" selection-start-column="15" selection-end-line="500" selection-end-column="15" />
+          <folding>
+            <element signature="e#15104#15105#0" expanded="true" />
+            <element signature="e#15148#15149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomUIListener.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jaudiotagger/2.0.3/jaudiotagger-2.0.3.jar!/org/jaudiotagger/audio/mp3/MP3AudioHeader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jaudiotagger/2.0.3/jaudiotagger-2.0.3.jar!/org/jaudiotagger/audio/mp3/MP3File.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jaudiotagger/2.0.3/jaudiotagger-2.0.3.jar!/org/jaudiotagger/audio/AudioFileIO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jaudiotagger/2.0.3/jaudiotagger-2.0.3.jar!/org/jaudiotagger/audio/AudioHeader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jaudiotagger/2.0.3/jaudiotagger-2.0.3.jar!/org/jaudiotagger/audio/mp3/MP3FileReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jaudiotagger/2.0.3/jaudiotagger-2.0.3.jar!/org/jaudiotagger/Test2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jaudiotagger/2.0.3/jaudiotagger-2.0.3.jar!/org/jaudiotagger/audio/AudioFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/jaudiotagger-2.0.3-sources.jar!/org/jaudiotagger/audio/mp3/MP3AudioHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="132" column="7" lean-forward="true" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jaudiotagger/2.0.3/jaudiotagger-2.0.3.jar!/org/jaudiotagger/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/jaudiotagger-2.0.3-sources.jar!/org/jaudiotagger/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/jaudiotagger-2.0.3-sources.jar!/org/jaudiotagger/audio/mp3/MP3FileReader.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/jaudiotagger-2.0.3-sources.jar!/org/jaudiotagger/audio/AudioHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/jaudiotagger-2.0.3-sources.jar!/org/jaudiotagger/audio/AudioFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="146" column="23" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
+          <folding>
+            <element signature="e#4899#4900#0" expanded="true" />
+            <element signature="e#4933#4934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/jaudiotagger-2.0.3-sources.jar!/org/jaudiotagger/audio/exceptions/InvalidAudioFrameException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/jaudiotagger-2.0.3-sources.jar!/org/jaudiotagger/audio/AudioFileIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="147" column="100" selection-start-line="147" selection-start-column="100" selection-end-line="147" selection-end-column="100" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/prop.properties">
@@ -644,56 +862,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/player/Mp3Player.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomFileIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="817" column="19" selection-start-line="817" selection-start-column="19" selection-end-line="817" selection-end-column="19" />
+        <state relative-caret-position="360">
+          <caret line="12" column="18" selection-end-line="83" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2990#2991#0" expanded="true" />
-            <element signature="e#3017#3018#0" expanded="true" />
-            <element signature="e#5105#5723#0" expanded="true" />
-            <element signature="e#5722#5723#0" expanded="true" />
-            <element signature="e#7313#7770#0" expanded="true" />
-            <element signature="e#7769#7770#0" expanded="true" />
-            <element signature="e#8098#8268#0" expanded="true" />
-            <element signature="e#8267#8268#0" expanded="true" />
-            <element signature="e#8590#8741#0" expanded="true" />
-            <element signature="e#8740#8741#0" expanded="true" />
-            <element signature="e#9975#11059#0" expanded="true" />
-            <element signature="e#11058#11059#0" expanded="true" />
-            <element signature="e#12061#12447#0" expanded="true" />
-            <element signature="e#12446#12447#0" expanded="true" />
-            <element signature="e#15330#15711#0" expanded="true" />
-            <element signature="e#15710#15711#0" expanded="true" />
-            <element signature="e#16053#17690#0" expanded="true" />
-            <element signature="e#16500#16501#0" expanded="true" />
-            <element signature="e#16571#16572#0" expanded="true" />
-            <element signature="e#16623#16624#0" expanded="true" />
-            <element signature="e#16726#16727#0" expanded="true" />
-            <element signature="e#17689#17690#0" expanded="true" />
-            <element signature="e#20923#21758#0" expanded="true" />
-            <element signature="e#21757#21758#0" expanded="true" />
-            <element signature="e#21889#22192#0" expanded="true" />
-            <element signature="e#22191#22192#0" expanded="true" />
-            <element signature="e#23426#23606#0" expanded="true" />
-            <element signature="e#23605#23606#0" expanded="true" />
-            <element signature="e#25210#25665#0" expanded="true" />
-            <element signature="e#25664#25665#0" expanded="true" />
-            <element signature="e#26331#26332#0" expanded="true" />
-            <element signature="e#26375#26376#0" expanded="true" />
-            <element signature="e#26590#27577#0" expanded="true" />
-            <element signature="e#27576#27577#0" expanded="true" />
-            <element signature="e#30357#30358#0" expanded="true" />
-            <element signature="e#30388#30389#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="360">
+          <caret line="12" column="35" selection-end-line="281" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomPlayerComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="21" selection-end-line="420" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="2" selection-end-line="186" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="36" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/player/Mp3Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
