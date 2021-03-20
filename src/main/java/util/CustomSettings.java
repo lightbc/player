@@ -1,5 +1,9 @@
 package util;
 
+import constants.settings.Settings;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
@@ -15,6 +19,8 @@ import java.io.IOException;
  * @version 1.0
  */
 public class CustomSettings {
+    private static Logger logger = LoggerFactory.getLogger(CustomSettings.class);
+
     public JDialog dialog;
 
     private CustomPlayerComponent component;
@@ -33,7 +39,7 @@ public class CustomSettings {
             dialog.dispose();
         }
         dialog = new JDialog();
-        dialog.setSize(500, 300);
+        dialog.setSize(Settings.CHOOSE_DIALOG_W, Settings.CHOOSE_DIALOG_H);
         dialog.setLocationRelativeTo(null);
         dialog.setUndecorated(true);
         dialog.setVisible(true);
@@ -41,14 +47,14 @@ public class CustomSettings {
         // 关闭dialog
         JButton closeBtn = new JButton();
         closeBtn.setBounds(dialog.getWidth() - component.btnWidth, 0, component.btnWidth, component.btnHeight);
-        component.setCommonButton(closeBtn, "close.png");
+        component.setCommonButton(closeBtn, Settings.CHOOSE_CLOSE_IMAGE);
         dialog.add(closeBtn);
 
         //关闭事件监听
         closeBtn.addMouseListener(new MouseAdapter() {
 
             public void mouseClicked(MouseEvent e) {
-                component.settingsList.setVisible(false);
+                component.getSettingsList().setVisible(false);
                 dialog.dispose();
             }
         });
@@ -57,12 +63,13 @@ public class CustomSettings {
         lb.setBounds(0, 0, component.labelWidth + 30, component.labelHeight);
 
         // 层级面板
-        component.layeredPane = new JLayeredPane();
-        JLayeredPane layeredPane = component.layeredPane;
+        component.setLayeredPane(new JLayeredPane());
+        JLabel defaultChoose = component.getDefaultChoose();
+        JLayeredPane layeredPane = component.getLayeredPane();
         layeredPane.setOpaque(true);
-        layeredPane.setBackground(component.chooserColor);
+        layeredPane.setBackground(component.getChooserColor());
         layeredPane.setBounds(0, 0, 500, 300);
-        layeredPane.add(component.defaultChoose, new Integer(200));
+        layeredPane.add(defaultChoose, new Integer(200));
         layeredPane.add(closeBtn, new Integer(200), 1);
         layeredPane.add(lb, new Integer(200), 1);
 
@@ -73,11 +80,11 @@ public class CustomSettings {
             setColorList(139, 0, 139, 2, dialog);
             setColorList(141, 238, 238, 3, dialog);
             setColorList(238, 92, 66, 4, dialog);
-            component.defaultChoose.setVisible(true);
+            defaultChoose.setVisible(true);
         } else if (setting.equals("Author")) {
             showAbout();
             lb.setText("Author");
-            component.defaultChoose.setVisible(false);
+            defaultChoose.setVisible(false);
         }
 
     }
@@ -92,43 +99,46 @@ public class CustomSettings {
      * @param dialog
      */
     void setColorList(final int r, final int g, final int b, final int pos, JDialog dialog) {
-        component.colorChooserLab = new JLabel();
-        JLabel colorChooserLab = component.colorChooserLab;
+        component.setColorChooserLab(new JLabel());
+        JLabel colorChooserLab = component.getColorChooserLab();
         colorChooserLab.setBounds(component.colorLabWidth * pos, component.colorLabTop, component.colorLabWidth, component.colorLabHeight);
         colorChooserLab.setOpaque(true);
         colorChooserLab.setBackground(new Color(r, g, b));
 
-        component.layeredPane.add(colorChooserLab, new Integer(100));
-        dialog.add(component.layeredPane);
+        JLayeredPane layeredPane = component.getLayeredPane();
+
+        layeredPane.add(colorChooserLab, new Integer(100));
+        dialog.add(layeredPane);
 
         colorChooserLab.addMouseListener(new MouseAdapter() {
 
             public void mouseClicked(MouseEvent e) {
                 if (e.getButton() == MouseEvent.BUTTON1) {
-                    component.framePanel.setBackground(new Color(r, g, b));
-                    component.chooserColor = new Color(r, g, b);
-                    component.fileName.setBackground(component.chooserColor);
-                    component.layeredPane.setBackground(component.chooserColor);
-                    component.defaultChoose.setBounds(component.colorLabWidth * (pos + 1) - component.checkWidth, component.colorLabTop + component.colorLabHeight - component.checkHeight, 40, 40);
+                    component.getFramePanel().setBackground(new Color(r, g, b));
+                    component.setChooserColor(new Color(r, g, b));
+                    Color chooserColor = component.getChooserColor();
+                    component.getFileName().setBackground(chooserColor);
+                    component.getLayeredPane().setBackground(chooserColor);
+                    component.getDefaultChoose().setBounds(component.colorLabWidth * (pos + 1) - component.checkWidth, component.colorLabTop + component.colorLabHeight - component.checkHeight, 40, 40);
                 }
             }
         });
     }
 
     /**
-     * 显示关于
+     * 显示关于作者
      */
     void showAbout() {
-        component.table = new JTable();
-        JTable table = component.table;
-        table.setBounds(0, 35, 500, 90);
+        component.setTable(new JTable());
+        JTable table = component.getTable();
+        table.setBounds(Settings.ABOUT_WINDOW_X, Settings.ABOUT_WINDOW_Y, Settings.ABOUT_WINDOW_W, Settings.ABOUT_WINDOW_H);
         table.setOpaque(true);
-        table.setBackground(component.chooserColor);
-        table.setBorder(BorderFactory.createLineBorder(new Color(117, 132, 147)));
+        table.setBackground(component.getChooserColor());
+        table.setBorder(BorderFactory.createLineBorder(Settings.ABOUT_LINE_BORDER_COLOR));
         // 单元格内容
-        Object[][] rowObj = {{"Author：", "lightbc"}, {"Blog：", "https://www.cnblogs.com/lightbc/"}, {"GitHub：", "https://github.com/lightbc"}};
+        Object[][] rowObj = Settings.ABOUT_TABLE_CELLS;
         // 标题
-        Object[] colObj = {"name", "address"};
+        Object[] colObj = Settings.ABOUT_TABLE_TITLE;
         // 默认表格model
         DefaultTableModel model = new DefaultTableModel(rowObj, colObj) {
             public boolean isCellEditable(int row, int col) {
@@ -136,29 +146,33 @@ public class CustomSettings {
             }
         };
         table.setModel(model);
-        table.setRowHeight(30);
-        component.layeredPane.add(table, new Integer(100));
-        dialog.add(component.layeredPane);
+        table.setRowHeight(Settings.ABOUT_TABLE_R_H);
+        JLayeredPane layeredPane = component.getLayeredPane();
+        layeredPane.add(table, new Integer(Settings.ABOUT_WINDOW_PANE_L));
+        dialog.add(layeredPane);
 
         // table 鼠标事件监听
         table.addMouseListener(new MouseAdapter() {
 
             public void mouseClicked(MouseEvent e) {
                 if (e.getButton() == MouseEvent.BUTTON1) {
-                    int row = component.table.getSelectedRow();
-                    int col = component.table.getSelectedColumn();
+                    JTable table = component.getTable();
+                    int row = table.getSelectedRow();
+                    int col = table.getSelectedColumn();
                     String value = "";
                     if (row != -1 && col != -1) {
-                        value = (String) component.table.getValueAt(row, col);
+                        value = (String) table.getValueAt(row, col);
                     }
                     try {
                         // http | https协议操作
-                        if ((value.indexOf("http://") != -1 || value.indexOf("https://") != -1) && value != null) {
-                            int result = JOptionPane.showConfirmDialog(null, "您确认要访问该主页吗？", "提示", JOptionPane.YES_NO_CANCEL_OPTION);
+                        if ((value.indexOf(Settings.ABOUT_FILTER_PROTOCOL[0]) != -1 || value.indexOf(Settings.ABOUT_FILTER_PROTOCOL[1]) != -1) && value != null) {
+                            int result = JOptionPane.showConfirmDialog(null, Settings.ABOUT_OPEN_URL_CONFIRM_M, Settings.ABOUT_OPEN_URL_CONFIRM_T, JOptionPane.YES_NO_CANCEL_OPTION);
                             if (result == 0) {
                                 // 打开符合条件的链接
-                                Runtime.getRuntime().exec("cmd.exe /c start " + value);
+                                Runtime.getRuntime().exec(Settings.ABOUT_EXEC_COMMAND + value);
                             }
+                        } else {
+                            logger.debug(Settings.ABOUT_PROTOCOL_LOG_M);
                         }
                     } catch (IOException ex) {
                         ex.printStackTrace();

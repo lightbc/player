@@ -55,7 +55,7 @@ public class CustomFileIO {
      * @param component
      */
     public void writePropFile(CustomPlayerComponent component) {
-        if (component.rltPath != null) {
+        if (component.getRltPath() != null) {
             File file = new File(CustomSystem.getInstance().installPath() + "prop.properties");
             if (!file.exists()) {
                 try {
@@ -64,12 +64,11 @@ public class CustomFileIO {
                     e.printStackTrace();
                 }
             }
-            System.out.println(file.getAbsolutePath());
             FileOutputStream fos;
             try {
                 Properties prop = new Properties();
                 fos = new FileOutputStream(file);
-                prop.setProperty("player.resources.src", component.rltPath);
+                prop.setProperty("player.resources.src", component.getRltPath());
                 prop.store(fos, "The last time you opened the file directory");
                 fos.flush();
                 fos.close();

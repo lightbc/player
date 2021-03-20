@@ -35,16 +35,17 @@ public class CustomListener {
      * 文件名输入框监听
      */
     public void fileNameListener() {
-        component.fileName.addCaretListener(new CaretListener() {
+        component.getFileName().addCaretListener(new CaretListener() {
             @Override
             public void caretUpdate(CaretEvent e) {
                 JTextField textField = (JTextField) e.getSource();
                 String s = textField.getText();
                 Font font = textField.getFont();
                 if (font.canDisplayUpTo(s) != -1) {
-                    for (int i = 0; i < component.fList.length; i++) {
-                        if (component.fList[i].canDisplayUpTo(s) == -1) {
-                            textField.setFont(component.fList[i]);
+                    Font[] fList = component.getfList();
+                    for (int i = 0; i < fList.length; i++) {
+                        if (fList[i].canDisplayUpTo(s) == -1) {
+                            textField.setFont(fList[i]);
                             break;
                         }
                     }
@@ -57,17 +58,18 @@ public class CustomListener {
      * 设置监听
      */
     public void settingsListener() {
-        component.settings.addMouseListener(new MouseAdapter() {
+        component.getSettings().addMouseListener(new MouseAdapter() {
             boolean bool = false;
 
             @Override
             public void mouseClicked(MouseEvent e) {
                 if (e.getButton() == MouseEvent.BUTTON1) {
+                    JList settingsList = component.getSettingsList();
                     if (!bool) {
-                        component.settingsList.setVisible(true);
+                        settingsList.setVisible(true);
                         bool = true;
                     } else {
-                        component.settingsList.setVisible(false);
+                        settingsList.setVisible(false);
                         bool = false;
                     }
                 }
@@ -79,15 +81,16 @@ public class CustomListener {
      * 设置列表监听
      */
     public void settingsListListener() {
-        component.settingsList.addMouseListener(new MouseAdapter() {
+        component.getSettingsList().addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 if (e.getButton() == MouseEvent.BUTTON1) {
+                    JList settingsList = component.getSettingsList();
                     CustomSettings settings = new CustomSettings(component);
-                    if (component.settingsList.getSelectedValue().equals("Skins")) {
-                        settings.settingsListChooser(component.settingsList.getSelectedValue().toString());
-                    } else if (component.settingsList.getSelectedValue().equals("Author")) {
-                        settings.settingsListChooser(component.settingsList.getSelectedValue().toString());
+                    if (settingsList.getSelectedValue().equals("Skins")) {
+                        settings.settingsListChooser(settingsList.getSelectedValue().toString());
+                    } else if (settingsList.getSelectedValue().equals("Author")) {
+                        settings.settingsListChooser(settingsList.getSelectedValue().toString());
                     }
                 }
             }
@@ -98,7 +101,7 @@ public class CustomListener {
      * 窗体最小化监听
      */
     public void minimumWindowListener() {
-        component.minimumWindow.addMouseListener(new MouseAdapter() {
+        component.getMinimumWindow().addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 if (e.getButton() == MouseEvent.BUTTON1) {
@@ -112,7 +115,7 @@ public class CustomListener {
      * 关闭窗体监听
      */
     public void closeWindowListener() {
-        component.closeWindow.addMouseListener(new MouseAdapter() {
+        component.getCloseWindow().addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 if (e.getButton() == MouseEvent.BUTTON1) {
@@ -126,27 +129,29 @@ public class CustomListener {
      * 播放列表监听
      */
     public void playListener() {
-        component.play.addMouseListener(new MouseAdapter() {
+        component.getPlay().addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 if (e.getButton() == MouseEvent.BUTTON1) {
-                    if (component.mp != null) {
-                        component.mp.setVolume(component.volValue);
-                        if (component.mp.getStatus() == MediaPlayer.Status.READY) {
-                            component.setCommonButton(component.play, "pause.png");
-                            component.mp.play();
+                    MediaPlayer mp = component.getMp();
+                    if (mp != null) {
+                        mp.setVolume(component.getVolValue());
+                        JButton play = component.getPlay();
+                        if (mp.getStatus() == MediaPlayer.Status.READY) {
+                            component.setCommonButton(play, "pause.png");
+                            mp.play();
                             component.timer();
-                        } else if (component.mp.getStatus() == MediaPlayer.Status.PLAYING) {
-                            component.setCommonButton(component.play, "play.png");
-                            component.mp.pause();
+                        } else if (mp.getStatus() == MediaPlayer.Status.PLAYING) {
+                            component.setCommonButton(play, "play.png");
+                            mp.pause();
                             component.adjustTimer("PAUSED");
-                        } else if (component.mp.getStatus() == MediaPlayer.Status.PAUSED) {
-                            component.setCommonButton(component.play, "pause.png");
-                            component.mp.play();
+                        } else if (mp.getStatus() == MediaPlayer.Status.PAUSED) {
+                            component.setCommonButton(play, "pause.png");
+                            mp.play();
                             component.adjustTimer("PLAYING");
-                        } else if (component.mp.getStatus() == MediaPlayer.Status.STOPPED) {
-                            component.setCommonButton(component.play, "pause.png");
-                            component.mp.play();
+                        } else if (mp.getStatus() == MediaPlayer.Status.STOPPED) {
+                            component.setCommonButton(play, "pause.png");
+                            mp.play();
                             component.timer();
                         }
                     }
@@ -159,16 +164,17 @@ public class CustomListener {
      * 音量监听
      */
     public void volumeListener() {
-        component.volume.addMouseListener(new MouseAdapter() {
+        component.getVolume().addMouseListener(new MouseAdapter() {
             boolean bool;
 
             public void mouseClicked(MouseEvent e) {
                 if (e.getButton() == MouseEvent.BUTTON1) {
+                    JSlider volSlider = component.getVolSlider();
                     if (!bool) {
-                        component.volSlider.setVisible(true);
+                        volSlider.setVisible(true);
                         bool = true;
                     } else {
-                        component.volSlider.setVisible(false);
+                        volSlider.setVisible(false);
                         bool = false;
                     }
                 }
@@ -180,15 +186,17 @@ public class CustomListener {
      * 音量滑块监听
      */
     public void volSliderListener() {
-        component.volSlider.addChangeListener(new ChangeListener() {
+        component.getVolSlider().addChangeListener(new ChangeListener() {
 
             public void stateChanged(ChangeEvent e) {
-                component.volValue = component.volSlider.getValue();
-                component.adjustVolume(component.volValue);
-                if (component.volValue == 0) {
-                    component.setCommonButton(component.volume, "mute.png");
+                component.setVolValue(component.getVolSlider().getValue());
+                int volValue = component.getVolValue();
+                component.adjustVolume(volValue);
+                JButton volume = component.getVolume();
+                if (volValue == 0) {
+                    component.setCommonButton(volume, "mute.png");
                 } else {
-                    component.setCommonButton(component.volume, "volume.png");
+                    component.setCommonButton(volume, "volume.png");
                 }
             }
         });
@@ -198,17 +206,19 @@ public class CustomListener {
      * 播放类型监听（是否循环播放）
      */
     public void playTypeListener() {
-        component.playType.addMouseListener(new MouseAdapter() {
-
+        component.getPlayType().addMouseListener(new MouseAdapter() {
+            boolean isRepeat = component.isRepeat();
             public void mouseClicked(MouseEvent e) {
                 if (e.getButton() == MouseEvent.BUTTON1) {
-                    if (!component.isRepeat) {
-                        component.setCommonButton(component.playType, "repeat.png");
-                        component.isRepeat = true;
+                    JButton playType = component.getPlayType();
+                    if (!isRepeat) {
+                        component.setCommonButton(playType, "repeat.png");
+                        isRepeat = true;
                     } else {
-                        component.setCommonButton(component.playType, "norepeat.png");
-                        component.isRepeat = false;
+                        component.setCommonButton(playType, "norepeat.png");
+                        isRepeat = false;
                     }
+                    component.setRepeat(isRepeat);
                 }
             }
         });
@@ -218,17 +228,20 @@ public class CustomListener {
      * 添加文件监听
      */
     public void addFileListener() {
-        component.addFile.addMouseListener(new MouseAdapter() {
+        component.getAddFile().addMouseListener(new MouseAdapter() {
 
             public void mouseClicked(MouseEvent e) {
                 if (e.getButton() == MouseEvent.BUTTON1) {
-                    if (component.rltPath.equals("")) {
-                        component.fileChooser = new JFileChooser("c:/");
-                        component.fileChooser.changeToParentDirectory();
+                    String rltPath = component.getRltPath();
+                    if (rltPath.equals("")) {
+                        component.setFileChooser(new JFileChooser("c:/"));
+                        ;
+                        component.getFileChooser().changeToParentDirectory();
                     } else {
-                        component.fileChooser = new JFileChooser(component.rltPath);
+                        component.setFileChooser(new JFileChooser(rltPath));
                     }
-                    component.fileChooser.setFileView(new FileView() {
+                    JFileChooser fileChooser = component.getFileChooser();
+                    fileChooser.setFileView(new FileView() {
 
                         public String getName(File f) {
                             return super.getName(f);
@@ -236,24 +249,24 @@ public class CustomListener {
 
 
                         public Icon getIcon(File f) {
-                            return component.fileChooser.getFileSystemView().getSystemIcon(f);
+                            return component.getFileChooser().getFileSystemView().getSystemIcon(f);
                         }
                     });
-                    component.fileChooser.setDialogTitle("文件");
+                    fileChooser.setDialogTitle("文件");
                     // 开启多选
-                    component.fileChooser.setMultiSelectionEnabled(true);
+                    fileChooser.setMultiSelectionEnabled(true);
                     // 文件选择模式-仅文件
-                    component.fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
+                    fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
                     // 关闭选择"所有文件"
-                    component.fileChooser.removeChoosableFileFilter(component.fileChooser.getAcceptAllFileFilter());
+                    fileChooser.removeChoosableFileFilter(fileChooser.getAcceptAllFileFilter());
                     // 设置可选文件类型
-                    component.fileChooser.setFileFilter(new FileNameExtensionFilter("*.mp3", "mp3"));
-                    int result = component.fileChooser.showOpenDialog(null);
+                    fileChooser.setFileFilter(new FileNameExtensionFilter("*.mp3", "mp3"));
+                    int result = fileChooser.showOpenDialog(null);
 
-                    if (component.fileChooser.getSelectedFiles() != null && result == JFileChooser.APPROVE_OPTION) {
-                        File[] files = component.fileChooser.getSelectedFiles();
+                    if (fileChooser.getSelectedFiles() != null && result == JFileChooser.APPROVE_OPTION) {
+                        File[] files = fileChooser.getSelectedFiles();
                         // 记录上次访问文件的上级目录
-                        component.rltPath = files[0].getParent();
+                        component.setRltPath(files[0].getParent());
                         io.writePropFile(component);
                         component.initPlayer();
                         component.player(files[0]);
@@ -267,7 +280,8 @@ public class CustomListener {
      * 开始监听
      */
     public void startListener() {
-        this.fileNameListener();
+        this.addFileListener();
+//        this.fileNameListener();
         this.settingsListener();
         this.settingsListListener();
         this.minimumWindowListener();
@@ -276,6 +290,5 @@ public class CustomListener {
         this.volumeListener();
         this.volSliderListener();
         this.playTypeListener();
-        this.addFileListener();
     }
 }

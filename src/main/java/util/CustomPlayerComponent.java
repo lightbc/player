@@ -9,6 +9,7 @@ import org.jaudiotagger.audio.exceptions.CannotReadException;
 import org.jaudiotagger.audio.exceptions.InvalidAudioFrameException;
 import org.jaudiotagger.audio.exceptions.ReadOnlyFileException;
 import org.jaudiotagger.tag.TagException;
+import entity.Components;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -17,7 +18,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
-import java.util.Properties;
 
 /**
  * Description:自定义播放器组件功能
@@ -26,79 +26,57 @@ import java.util.Properties;
  * @author lightbc
  * @version 1.0
  */
-public class CustomPlayerComponent extends JFrame {
-    public JPanel framePanel;
-    public JLabel playerIcon;
-    public JLabel fileType;
-    public JScrollPane scrollPane;
-    public JScrollBar scrollBar;
-    public int scrollSpeed = 0;
-    public JLabel defaultChoose = new JLabel();
-    public JTable table;
-    public JLabel currentTime;
-    public JLabel timeSeparator;
-    public JLabel durationTime;
-    public int duration;
-    public JProgressBar progressBar;
-    public int count = 0;
+public class CustomPlayerComponent extends Components {
     public int labelWidth = 30;
+
     public int labelHeight = 30;
+
     public int labelHints = 4;
+
     public int space = 5;
+
     public int btnWidth = 25;
+
     public int btnHeight = 25;
+
     public int btnHints = 4;
+
     public int topLeft = 725;
+
     public int bottomLeft = 710;
-    public String iconsPath = "";
-    public String itp = "";
-    public String[] fontFamilyNames;
-    public File rpf;
-    public Properties prop = new Properties();
-    public Media media;
-    public Timer timer;
-    public Timer fnTimer;
-    public JLabel colorChooserLab;
-    public JLayeredPane layeredPane;
-    public Color chooserColor;
+
     public int colorLabWidth = 100;
+
     public int colorLabHeight = 100;
+
     public int colorLabTop = 100;
+
     public int checkWidth = 40;
+
     public int checkHeight = 40;
 
-    public JTextField fileName;
-    public Font[] fList;
-    public JButton settings;
-    public JList settingsList;
-    public JButton minimumWindow;
-    public JButton closeWindow;
-    public JButton play;
-    public MediaPlayer mp;
-    public int volValue = 50;
-    public JButton volume;
-    public JSlider volSlider;
-    public JButton playType;
-    public boolean isRepeat = true;
-    public JButton addFile;
-    public String rltPath = "";
-    public JFileChooser fileChooser;
+    private Timer timer;
+
+    private Timer fnTimer;
+
+    private CustomListener listener;
 
     /**
      * 初始化frame
      */
     public void initFrame() {
-        iconsPath = CustomSystem.getInstance().getIconPath();
-        rltPath = CustomSystem.getInstance().getPath();
+        setIconsPath(CustomSystem.getInstance().getIconPath());
+        setRltPath(CustomSystem.getInstance().getPath());
 
         // 设置frame基础参数
         this.setSize(800, 150);
-        this.setIconImage(new ImageIcon(iconsPath + "icon.png").getImage());
+        this.setIconImage(new ImageIcon(getIconsPath() + "icon.png").getImage());
         this.setLocationRelativeTo(null);
         this.setUndecorated(true);
 
         // 创建panel容器
-        framePanel = new JPanel(null);
+        setFramePanel(new JPanel(null));
+        JPanel framePanel = getFramePanel();
         framePanel.setOpaque(true);
 
         framePanelComponent(framePanel);
@@ -119,107 +97,99 @@ public class CustomPlayerComponent extends JFrame {
     public void framePanelComponent(JPanel panel) {
 
         // logo
-        playerIcon = new JLabel();
+        setPlayerIcon(new JLabel());
+        JLabel playerIcon = getPlayerIcon();
         playerIcon.setBounds(0, 0, labelWidth, labelHeight);
         setCommonLabel(playerIcon, "icon.png");
         panel.add(playerIcon);
 
         // 文件类型
-        fileType = new JLabel("", JLabel.CENTER);
+        setFileType(new JLabel("", JLabel.CENTER));
+        JLabel fileType = getFileType();
         fileType.setBounds(labelWidth + space, 0, labelWidth, labelHeight);
         panel.add(fileType);
 
-        // 文件名
-        fileName = new JTextField("", 20);
-        fileName.setBorder(new EmptyBorder(0, 0, 0, 0));
-        fileName.setBackground(chooserColor);
-        fileName.setDisabledTextColor(new Color(51, 51, 51));
-        fileName.setHorizontalAlignment(JTextField.CENTER);
-        fileName.setEnabled(false);
-
-        // 获取本地字体
-        fontFamilyNames = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
-        fList = new Font[fontFamilyNames.length];
-        for (int i = 0; i < fontFamilyNames.length; i++) {
-            fList[i] = new Font(fontFamilyNames[i], fileName.getFont().getStyle(), fileName.getFont().getSize());
-        }
-
-        // 滚动条
-        scrollPane = new JScrollPane(fileName);
-        scrollPane.setBorder(new EmptyBorder(0, 0, 0, 0));
-        scrollPane.setBounds(labelWidth * 2 + space * 3, 0, 100, labelHeight);
-        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
-        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_NEVER);
-        scrollBar = scrollPane.getHorizontalScrollBar();
-        panel.add(scrollPane);
+        // 歌名滚动
+        scrollSongName();
 
         // 设置
-        settings = new JButton();
+        setSettings(new JButton());
+        JButton settings = getSettings();
         settings.setToolTipText("settings");
         settings.setBounds(topLeft, 0, btnWidth, btnHeight);
         setCommonButton(settings, "settings.png");
         panel.add(settings);
 
         // 设置列表
-        settingsList = new JList();
+        setSettingsList(new JList());
+        JList settingsList = getSettingsList();
         String[] opts = {"Skins", "Author"};
         new CustomSettings(this).createSettingsOpts(opts, settingsList, new DefaultListModel());
         panel.add(settingsList);
 
-        defaultChoose.setBounds(colorLabWidth - checkWidth, colorLabTop + colorLabHeight - checkHeight, 40, 40);
-        setCommonLabel(defaultChoose, "check.png");
+        getDefaultChoose().setBounds(colorLabWidth - checkWidth, colorLabTop + colorLabHeight - checkHeight, 40, 40);
+        setCommonLabel(getDefaultChoose(), "check.png");
 
         // 最小化
-        minimumWindow = new JButton();
+        setMinimumWindow(new JButton());
+        JButton minimumWindow = getMinimumWindow();
         minimumWindow.setToolTipText("minimum");
         minimumWindow.setBounds(topLeft + btnWidth, 0, btnWidth, btnHeight);
         setCommonButton(minimumWindow, "min.png");
         panel.add(minimumWindow);
 
         // 关闭窗体
-        closeWindow = new JButton();
+        setCloseWindow(new JButton());
+        JButton closeWindow = getCloseWindow();
         closeWindow.setToolTipText("close");
         closeWindow.setBounds(topLeft + btnWidth * 2, 0, btnWidth, btnHeight);
         setCommonButton(closeWindow, "close.png");
         panel.add(closeWindow);
 
         // 当前时间
-        currentTime = new JLabel("00:00", JLabel.CENTER);
+        setCurrentTime(new JLabel("00:00", JLabel.CENTER));
+        JLabel currentTime = getCurrentTime();
         currentTime.setFont(new Font("宋体", Font.BOLD, 20));
         currentTime.setBounds(0, labelHeight, 70, 70);
         panel.add(currentTime);
 
         // 分隔
-        timeSeparator = new JLabel("/", JLabel.CENTER);
+        setTimeSeparator(new JLabel("/", JLabel.CENTER));
+        JLabel timeSeparator = getTimeSeparator();
         timeSeparator.setBounds(currentTime.getWidth(), labelHeight + currentTime.getHeight() / 2, 10, 35);
         panel.add(timeSeparator);
 
         // 总时间
-        durationTime = new JLabel("00:00", JLabel.CENTER);
+        setDurationTime(new JLabel("00:00", JLabel.CENTER));
+        JLabel durationTime = getDurationTime();
         durationTime.setBounds(currentTime.getWidth() + timeSeparator.getWidth(), labelHeight + currentTime.getHeight() / 2, 35, 35);
         panel.add(durationTime);
 
         // 进度条
-        progressBar = new JProgressBar();
+        setProgressBar(new JProgressBar());
+        JProgressBar progressBar = getProgressBar();
         progressBar.setBounds(currentTime.getWidth() + timeSeparator.getWidth() + durationTime.getWidth() + space * 2, labelHeight + currentTime.getHeight() / 2, 670, 7);
         panel.add(progressBar);
 
         // 播放/暂停
-        play = new JButton();
+        setPlay(new JButton());
+        JButton play = getPlay();
         play.setToolTipText("play/pause");
         play.setBounds(0, labelHeight + currentTime.getHeight() + space, 35, 35);
         setCommonButton(play, "play.png");
         panel.add(play);
 
         // 音量
-        volume = new JButton();
+        setVolume(new JButton());
+        JButton volume = getVolume();
         volume.setToolTipText("volume");
         volume.setBounds(play.getWidth(), labelHeight + currentTime.getHeight() + space, 35, 35);
         setCommonButton(volume, "volume.png");
         panel.add(volume);
 
         // 音量滑块
-        volSlider = new JSlider(0, 100, volValue);
+        setVolSlider(new JSlider(0, 100, getVolValue()));
+        JSlider volSlider = getVolSlider();
         volSlider.setBounds(play.getWidth() + volume.getWidth(), labelHeight + currentTime.getHeight() + space * 3, 150, 15);
         volSlider.setVisible(false);
         panel.add(volSlider);
@@ -229,20 +199,22 @@ public class CustomPlayerComponent extends JFrame {
         ui.volSliderUI(volSlider);
 
         // 是否循环播放
-        playType = new JButton();
+        setPlayType(new JButton());
+        JButton playType = getPlayType();
         playType.setToolTipText("repeat/no repeat");
         playType.setBounds(bottomLeft, labelHeight + currentTime.getHeight() + space, 35, 35);
         setCommonButton(playType, "repeat.png");
         panel.add(playType);
 
         // 选择文件
-        addFile = new JButton();
+        setAddFile(new JButton());
+        JButton addFile = getAddFile();
         addFile.setToolTipText("choose file");
         addFile.setBounds(bottomLeft + playType.getWidth(), labelHeight + currentTime.getHeight() + space, 35, 35);
         setCommonButton(addFile, "plus.png");
         panel.add(addFile);
 
-        CustomListener listener = new CustomListener(this, new CustomFileIO());
+        listener = new CustomListener(this, new CustomFileIO());
         listener.startListener();
     }
 
@@ -253,7 +225,7 @@ public class CustomPlayerComponent extends JFrame {
      * @param name
      */
     void setCommonLabel(JLabel label, String name) {
-        String path = iconsPath + name;
+        String path = getIconsPath() + name;
         Image img = new ImageIcon(path).getImage().getScaledInstance(labelWidth, labelHeight, labelHints);
         label.setIcon(new ImageIcon(img));
     }
@@ -266,7 +238,7 @@ public class CustomPlayerComponent extends JFrame {
      */
     protected void setCommonButton(JButton button, String name) {
         if (name != null) {
-            String path = iconsPath + name;
+            String path = getIconsPath() + name;
             Image img = new ImageIcon(path).getImage().getScaledInstance(btnWidth, btnHeight, btnHints);
             button.setIcon(new ImageIcon(img));
         }
@@ -288,15 +260,12 @@ public class CustomPlayerComponent extends JFrame {
             String type = file.getName().substring(file.getName().lastIndexOf(".") + 1).toUpperCase();
             // 截取不带扩展名的文件名
             String name = file.getName().substring(0, file.getName().lastIndexOf("."));
-            fileType.setText(type);
-            fileName.setText(name);
-            if (fnTimer != null) {
-                fnTimer.stop();
-                scrollSpeed = 0;
-                fileNameTimer();
-            } else {
-                fileNameTimer();
+            getFileType().setText(type);
+            getFileName().setText(name);
+            if (fnTimer != null) {// 如果歌名滚动的定时器不为空，则将定时器置空
+                fnTimer = null;
             }
+            fileNameTimer();
             AudioHeader header = null;
             try {
                 // 获取音频文件的header
@@ -314,18 +283,20 @@ public class CustomPlayerComponent extends JFrame {
             }
             if (header != null) {
                 // 获取持续时间（秒）
-                duration = header.getTrackLength();
+                setDuration(header.getTrackLength());
+                int duration = getDuration();
                 int minutes = duration / 60;
                 int seconds = duration % 60;
                 // 格式持续时间，例：xx:xx
                 String dtFormat = (minutes > 9 ? String.valueOf(minutes) : "0" + minutes) +
                         ":" +
                         (seconds > 9 ? String.valueOf(seconds) : "0" + seconds);
-                durationTime.setText(dtFormat);
+                getDurationTime().setText(dtFormat);
                 // 创建media
-                media = new Media(file.toURI().toString());
+                setMedia(new Media(file.toURI().toString()));
+                Media media = getMedia();
                 // 创建media player
-                mp = new MediaPlayer(media);
+                setMp(new MediaPlayer(media));
             }
         }
     }
@@ -347,10 +318,12 @@ public class CustomPlayerComponent extends JFrame {
      * 播放timer
      */
     protected void timer() {
-        progressBar.setMinimum(count);
+        JProgressBar progressBar = getProgressBar();
+        int duration = getDuration();
+        progressBar.setMinimum(0);
         progressBar.setMaximum(duration);
         timer = new Timer(1000, new ActionListener() {
-
+            int count = 0;
             public void actionPerformed(ActionEvent e) {
                 count++;
                 int minutes = count / 60;
@@ -359,14 +332,15 @@ public class CustomPlayerComponent extends JFrame {
                 String current = (minutes > 9 ? String.valueOf(minutes) : "0" + minutes) +
                         ":" +
                         (seconds > 9 ? String.valueOf(seconds) : "0" + seconds);
-                progressBar.setValue(count);
-                currentTime.setText(current);
-                if (count > duration) {
+                getProgressBar().setValue(count);
+                getCurrentTime().setText(current);
+                if (count > getDuration()) {
                     initPlayer();
-                    if (isRepeat) {
-                        mp.play();
+                    count = 0;
+                    if (isRepeat()) {
+                        getMp().play();
                         timer.start();
-                        setCommonButton(play, "pause.png");
+                        setCommonButton(getPlay(), "pause.png");
                     }
                 }
             }
@@ -379,16 +353,16 @@ public class CustomPlayerComponent extends JFrame {
      */
     void fileNameTimer() {
         fnTimer = new Timer(250, new ActionListener() {
-
+            int scrollSpeed = getScrollSpeed();
             public void actionPerformed(ActionEvent e) {
                 scrollSpeed += 10;
-                if (scrollSpeed > scrollBar.getMaximum()) {
+                if (scrollSpeed > getScrollBar().getMaximum()) {
                     scrollSpeed = 0;
                 }
-                scrollBar.setValue(scrollSpeed);
+                getScrollBar().setValue(scrollSpeed);
             }
         });
-        if (scrollBar.getMaximum() > scrollPane.getWidth()) {
+        if (getScrollBar().getMaximum() > getScrollPane().getWidth()) {
             fnTimer.start();
         }
     }
@@ -399,8 +373,8 @@ public class CustomPlayerComponent extends JFrame {
      * @param volValue
      */
     protected void adjustVolume(int volValue) {
-        if (mp != null) {
-            mp.setVolume(volValue);
+        if (getMp() != null) {
+            getMp().setVolume(volValue);
         }
     }
 
@@ -408,13 +382,45 @@ public class CustomPlayerComponent extends JFrame {
      * 初始播放器
      */
     protected void initPlayer() {
-        if (mp != null && timer != null) {
-            mp.stop();
-            currentTime.setText("00:00");
-            count = 0;
-            progressBar.setValue(0);
+        if (getMp() != null && timer != null) {
+            getMp().stop();
+            getCurrentTime().setText("00:00");
+            getProgressBar().setValue(0);
             timer.stop();
-            setCommonButton(play, "play.png");
+            setCommonButton(getPlay(), "play.png");
+            scrollSongName();
         }
+    }
+
+    /**
+     * 歌名滚动方法
+     */
+    public void scrollSongName() {
+        // 文件名
+        setFileName(new JTextField("", 20));
+        JTextField fileName = getFileName();
+        fileName.setBorder(new EmptyBorder(0, 0, 0, 0));
+        fileName.setBackground(getChooserColor());
+        fileName.setDisabledTextColor(new Color(51, 51, 51));
+        fileName.setHorizontalAlignment(JTextField.CENTER);
+        fileName.setEnabled(false);
+
+        // 获取本地字体
+        String[] fontFamilyNames = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
+        Font[] fList = new Font[fontFamilyNames.length];
+        for (int i = 0; i < fontFamilyNames.length; i++) {
+            fList[i] = new Font(fontFamilyNames[i], fileName.getFont().getStyle(), fileName.getFont().getSize());
+        }
+        setfList(fList);
+
+        // 滚动条
+        setScrollPane(new JScrollPane(fileName));
+        JScrollPane scrollPane = getScrollPane();
+        scrollPane.setBorder(new EmptyBorder(0, 0, 0, 0));
+        scrollPane.setBounds(labelWidth * 2 + space * 3, 0, 100, labelHeight);
+        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_NEVER);
+        setScrollBar(scrollPane.getHorizontalScrollBar());
+        getFramePanel().add(scrollPane);
     }
 }
